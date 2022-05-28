@@ -43,7 +43,8 @@ The Adjusted R-squared is 68.25% meaning that the linear relationship of mpg wit
 
 **Please note that these are preliminary results and to further validate the model, we have to make sure that _the linear regression assumptions_ are met**. 
 
-## Summary Statistics on Suspension Coils
+## Deliverable 2. Summary Statistics on Suspension Coils
+
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
 * **Total Summary**
@@ -56,7 +57,7 @@ The overall manufacturing data for all lots meets the design specification with 
 
 Not all individual lots data meet this design specification. Specifically, Lot 3 has a variance of suspension of 220.10 pounds per square. 
 
-## T-Tests on Suspension Calls
+## Deliverable 3. T-Tests on Suspension Calls
 Below are t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 ### All Manufacturing Lots
@@ -74,7 +75,7 @@ The results for individual plots give **a p-value of**:
 * 0.6072 for Lot 2, indicating no statistically significant difference
 * **0.0416 for Lot 3, indicating a statistically significant difference at a 95% confidence level**.
 
-## Study Design for Additional Statistical Analysis
+## Deliverable 4. Study Design for Additional Statistical Analysis
 In this section, I will describe what a statistical study, comparing the performance of the MechaCar vehicles against its competitors, would look like. 
 
 ## What metric or metrics are you going to test?
