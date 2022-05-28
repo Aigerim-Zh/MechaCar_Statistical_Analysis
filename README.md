@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 # Project Overview
-In this project, I am tasked with building a linear regression model predicting MPG for the MechaCar company. Given selected predictors, the model makes right predictions almost 70% of the time. In addition, I analyzed the company's suspension coils data with a statistical summary and statistical tests against the population metrics. Lastly, I drafted a study design comparing the MechaCars's performance against its competition. 
+In this project, I am tasked with building a linear regression model predicting MPG for the MechaCar company. Given selected predictors, the model makes the right predictions almost 70% of the time. In addition, I analyzed the company's suspension coils data with a statistical summary and statistical tests against the population metrics. Lastly, I drafted a study design comparing the MechaCars's performance against its competition. 
 
 # Software 
 * Programming with ```R``` through ```RStudio``` 
@@ -35,13 +35,13 @@ In our case, the following variables produce statistically significant results:
 It is important to note that **the model's intercept** is statistically significant indicating that the model is missing other factors that explain variation in mpg.
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
-With at least a 95% confidence, we can reject the null hypothesis of a zero slope in the linear model as the overall p-value is 5.35 x 10-11, significantly less than 0.05. In other words, the included factors have a statistically significant effect on the mpg. 
+With at least 95% confidence, we can reject the null hypothesis of a zero slope in the linear model as the overall p-value is 5.35 x 10-11, significantly less than 0.05. In other words, the included factors have a statistically significant effect on the mpg. 
 
 ### Does this linear model predict the mpg of MechaCar prototypes effectively? Why or why not?
 
 The Adjusted R-squared is 68.25% meaning that the linear relationship of mpg with the included factors explains a 68.25% variation in mpg. It is a relatively strong result paired with a p-value of less than 0.05. However, 31.75% of the variation in the mpg is explained by other factors that are not included in the model. 
 
-**Please note that these are preliminary results and to further validate the model, we have to make sure that the linear regression assumptions are met**. 
+**Please note that these are preliminary results and to further validate the model, we have to make sure that _the linear regression assumptions_ are met**. 
 
 ## Summary Statistics on Suspension Coils
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
@@ -59,12 +59,12 @@ Not all individual lots data meet this design specification. Specifically, Lot 3
 ## T-Tests on Suspension Calls
 Below are t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-### All Manufacturing Lots**
+### All Manufacturing Lots
 ![](https://github.com/Aigerim-Zh/MechaCar_Statistical_Analysis/blob/main/Images/t-test_All_Lots.png)
 
 The results for all manufacturing lots give a p-value of 0.0628 indicating a statistically significant difference from the population mean with at least a 93% confidence level. 
 
-### Individual Lots**
+### Individual Lots
 ![](https://github.com/Aigerim-Zh/MechaCar_Statistical_Analysis/blob/main/Images/t-test_Lot1.png)
 ![](https://github.com/Aigerim-Zh/MechaCar_Statistical_Analysis/blob/main/Images/t-test_Lot2.png)
 ![](https://github.com/Aigerim-Zh/MechaCar_Statistical_Analysis/blob/main/Images/t-test_Lot3.png)
@@ -84,8 +84,8 @@ These features could include price, horsepower, safety rating, fuel efficiency, 
 
 
 ### What is the null hypothesis or alternative hypothesis?
-* Null hypothesis: There is no difference in the performance of the MechaCars and its competitors across the selected features
-* Alternate hypothesis: There is a statistically significant difference in the performance of the MechaCars and its competitors across the selected features
+* **Null hypothesis**: There is no difference in the performance of the MechaCars and its competitors across the selected features
+* **Alternate hypothesis**: There is a statistically significant difference in the performance of the MechaCars and its competitors across the selected features
 
 ### What statistical test would you use to test the hypothesis? And why?
 This study could be done with ANOVA testing as it can test whether they are statistically significant differences between means of independent variables for several groups.
